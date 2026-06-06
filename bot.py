@@ -11,7 +11,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 # --- সেটিংস ও কনফিগারেশন ---
 BOT_TOKEN = "8857697073:AAEJoIBndrXvWdMV8Nd4_Agzb43MoNUaCb8"
 ADMIN_ID = 8273597769  # আপনার টেলিগ্রাম আইডি
-SHEET_NAME = "YOUR_SHEET_NAME"
+SHEET_NAME = "File receipt"
 
 # গুগল শিট কানেকশন সেটআপ
 SCOPE = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
