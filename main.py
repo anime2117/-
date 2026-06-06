@@ -121,7 +121,7 @@ async def admin_and_status_handler(update: Update, context: ContextTypes.DEFAULT
             await update.message.reply_text("দুঃখিত, এই টোকেনটি ডাটাবেসে পাওয়া যায়নি।")
 
 # --- বট রান করার মেইন ব্লক ---
-if __name__ == '__main__':
+if __name__ == '__main.py__':
     app = ApplicationBuilder().token(BOT_TOKEN).build()
     
     app.add_handler(CommandHandler("start", start))
